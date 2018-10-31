@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="helloWord" > 
+<head>
+
+	<title>AngularJS</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="angular.js"></script>
+
+    	<script>
+		angular.module("helloWord", []); 
+		angular.module("helloWord").controller("ctrl", function ($scope) { // modo controlador "controller"
+			$scope.mensagem = " < Hello Word! >"  // modo "scope" (faz a mediação entre a view e o controller)"
+		})
+	    </script>
+
+</head>
+
+<body> 
+
+	<div  class="cor" ng-controller="ctrl"> <!-- modo vista "view"-->
+
+
+		{{mensagem}}
+	</div>	
+
+</body>
+
+</html>
