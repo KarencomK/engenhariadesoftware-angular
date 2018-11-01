@@ -1,0 +1,12 @@
+1.Requisitos necessarios
+  *Uma IDE (ambiente de desenvolvimento integrado)
+  *Arquivo angular.js 
+  *Conhecimento basico em HTML 
+  *Conhecimento basico do padrao MVC (Model-view-controller)(modelo-vista-controlador)
+2.Como Instalar:
+  *Fazer o dowload do arquivo em zip do site https://angularjs.org/
+  *Copiar o arquivo angular.js para o diretorio do projeto.
+  *importar  o arquivo na IDE dentro da tag script
+3. Opiniao sobre o Framework.
+   *Framework para facilitar as aplicacoes web, sua principal caracteristica e conseguir diminuir a 
+    quantidade de codigo escrito aumentando assim a sua produtividade.
